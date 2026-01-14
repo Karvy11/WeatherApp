@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.0027477">
+  <test-suite type="TestSuite" id="1014" name="CleverTapWeatherApp" fullname="CleverTapWeatherApp" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.002748" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1004" name="Assembly-CSharp-Editor.dll" fullname="F:/Unity/Projects/UnityProjectCleverTap/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.001031" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18364" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="WeatherParserTests" fullname="WeatherParserTests" classname="WeatherParserTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.000709" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1003" name="Test_JsonParsing_HandlesEmptyData" fullname="WeatherParserTests.Test_JsonParsing_HandlesEmptyData" methodname="Test_JsonParsing_HandlesEmptyData" classname="WeatherParserTests" runstate="Runnable" seed="216529091" result="Passed" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.000104" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="Test_JsonParsing_ReturnsCorrectTemperature" fullname="WeatherParserTests.Test_JsonParsing_ReturnsCorrectTemperature" methodname="Test_JsonParsing_ReturnsCorrectTemperature" classname="WeatherParserTests" runstate="Runnable" seed="1298987617" result="Passed" start-time="2026-01-14 18:38:30Z" end-time="2026-01-14 18:38:30Z" duration="0.000057" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/karan/AppData/LocalLow/CleverTap/CleverTapWeatherApp\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
